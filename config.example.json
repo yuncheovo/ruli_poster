@@ -1,0 +1,10 @@
+{
+  "username": "",
+  "password": "",
+  "default_article_dir": "",
+  "default_interval": 5,
+  "default_count": 1,
+  "default_category": "",
+  "cat_mode": "manual",
+  "site_settings": {}
+}

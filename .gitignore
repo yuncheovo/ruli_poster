@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包产物（体积大且可重新生成）
+build/
+dist/
+release/
+*.exe
+
+# 运行期日志
+logs/
+*.log
+
+# 本机配置与运行期数据（含账号凭据 / 站点信息）
+# 说明：运行时实际读写的是 ~/ruli_poster/ 下的同名文件，
+# 项目根目录这些是历史遗留副本，不入库。模板见 config.example.json
+config.json
+site_categories.json
+category_cache.json
+publish_apis.json
+
+# 临时/诊断输出
+build_out.txt
+selftest_out.txt
+
+# scripts/ 只入库脚本源码，探测抓回的页面样本与结果（可能含 cookie/token）不入库
+scripts/*.json
+scripts/*.html
+scripts/*.txt

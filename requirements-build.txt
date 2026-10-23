@@ -1,0 +1,2 @@
+# 发版构建依赖（在 requirements.txt 之外）
+pyinstaller>=6.0.0

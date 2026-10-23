@@ -1,0 +1,42 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>æºè½åå®¹ç®¡çç³»ç»</title><style>.ele-admin-loading {
+      width: 36px;
+      font-size: 0;
+      display: inline-block;
+      transform: rotate(45deg);
+      animation: loadingRotate 1.2s infinite linear;
+      position: relative;
+      top: calc(50% - 18px);
+      left: calc(50% - 18px);
+    }
+
+    .ele-admin-loading span {
+      width: 10px;
+      height: 10px;
+      margin: 4px;
+      border-radius: 50%;
+      background: #1890ff;
+      display: inline-block;
+      opacity: .9;
+    }
+
+    .ele-admin-loading span:nth-child(2) {
+      opacity: .7;
+    }
+
+    .ele-admin-loading span:nth-child(3) {
+      opacity: .5;
+    }
+
+    .ele-admin-loading span:nth-child(4) {
+      opacity: .3;
+    }
+
+    @keyframes loadingRotate {
+      to {
+        transform: rotate(405deg);
+      }
+    }
+
+    #app > .ele-admin-loading {
+      position: fixed;
+    }</style><script defer="defer" src="/js/chunk-vendors.b6784923.js"></script><script defer="defer" src="/js/app.ef924c67.js"></script><link href="/css/app.c5d065fd.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but ele-admin-template doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"><div class="ele-admin-loading"><span></span> <span></span> <span></span> <span></span></div></div></body></html>
